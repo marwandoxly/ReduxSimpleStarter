@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
 
@@ -14,10 +14,12 @@ YTSearch({key: API_KEY, term: "surfing"}, function(data){
 // this will produce HTML
 
 // this begins to form a tree of components
-const App = () => {
-  return (<div>
-    <SearchBar />
-  </div>);
+class App extends Component {
+  render(){
+    return (<div>
+      <SearchBar />
+    </div>);
+  }
 }
 
 // put this in the DOM
