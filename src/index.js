@@ -6,8 +6,12 @@ const API_KEY = "";
 
 // create a new component
 // this will produce HTML
+
+// this begins to form a tree of components
 const App = () => {
-  return <div>Hi!</div>;
+  return (<div>
+    <SearchBar />
+  </div>);
 }
 
 // put this in the DOM
