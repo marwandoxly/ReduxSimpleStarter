@@ -1,3 +1,5 @@
+import React from 'react';
+
 // create a new component
 // this will produce HTML
 const App = function(){
