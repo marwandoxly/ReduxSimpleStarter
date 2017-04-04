@@ -32,4 +32,4 @@ class App extends Component {
 }
 
 // put this in the DOM
-ReactDOM.render(<SearchBar />, document.querySelector(".container"));
+ReactDOM.render(<App />, document.querySelector(".container"));
