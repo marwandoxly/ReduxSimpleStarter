@@ -5,3 +5,4 @@ const App = function(){
 }
 
 // put this in the DOM
+React.render(App);
