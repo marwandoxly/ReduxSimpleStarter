@@ -15,5 +15,4 @@ const App = () => {
 }
 
 // put this in the DOM
-ReactDOM.render(<App />, document.querySelector(".container"));
-ReactDOM.render(<SearchBar />, document.querySelector(".searchbar"));
+ReactDOM.render(<SearchBar />, document.querySelector(".container"));
