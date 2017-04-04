@@ -8,4 +8,4 @@ const App = function(){
 }
 
 // put this in the DOM
-ReactDOM.render(<App />);
+ReactDOM.render(<App />, document.querySelector(".container"));
